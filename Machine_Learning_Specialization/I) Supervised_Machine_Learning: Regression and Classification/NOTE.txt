@@ -1,0 +1,15 @@
+"NOTE"
+
+If this message "Error displaying widget"
+
+## Preferred to use GoogleColab For interactive plots with advanced interactivity.
+And use this
+  
+--->from google.colab import output
+--->output.enable_custom_widget_manager()
+
+## For JupyterNotebook 
+1- pip install ipywidgets ipympl
+2- jupyter nbextension enable --py widgetsnbextension --sys-prefix
+   jupyter nbextension install --py widgetsnbextension --sys-prefix
+3- 
